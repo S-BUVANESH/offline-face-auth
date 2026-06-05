@@ -1,0 +1,6 @@
+{
+  "name": "Offline Face Auth",
+  "description": "Lightweight secure offline facial recognition and liveness detection system for remote zones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

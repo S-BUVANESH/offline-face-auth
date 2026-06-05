@@ -1,0 +1,39 @@
+=== MODEL FILES DIAGNOSTICS ===
+Current relative root path: /app/applet/app/.
+Current absolute root path: /app/applet/app/.
+Checking 'mobilefacenet.tflite':
+  Exists: false
+Checking '../mobilefacenet.tflite':
+  Exists: true
+  Absolute Path: /app/applet/app/../mobilefacenet.tflite
+  Canonical Path: /app/applet/mobilefacenet.tflite
+  Size: 5233552 bytes
+  Total bytes read: 5233552
+  Header (Hex): 18 00 00 00 54 46 4C 33 00 00 0E 00 18 00 04 00 08 00 0C 00 10 00 14 00 0E 00 00 00 03 00 00 00 B8 D4 4F 00 0C 00 00 00 10 00 00 00 20 00 00 00 01 00 00 00 18 FB 4E 00 0F 00 00 00 54 4F 43 4F
+  Header (ASCII): ....TFL3..........................O......... .........N.....TOCO
+  Magic characters (offset 4..7): 'TFL3'
+Checking 'app/src/main/assets/mobilefacenet.tflite':
+  Exists: false
+Checking '../app/src/main/assets/mobilefacenet.tflite':
+  Exists: true
+  Absolute Path: /app/applet/app/../app/src/main/assets/mobilefacenet.tflite
+  Canonical Path: /app/applet/app/src/main/assets/mobilefacenet.tflite
+  Size: 36 bytes
+  Total bytes read: 36
+  Header (Hex): 4D 4F 43 4B 5F 4D 4F 42 49 4C 45 46 41 43 45 4E 45 54 5F 54 46 4C 49 54 45 5F 4D 4F 44 45 4C 5F 44 41 54 41
+  Header (ASCII): MOCK_MOBILEFACENET_TFLITE_MODEL_DATA
+  Magic characters (offset 4..7): '_MOB'
+Checking 'src/main/assets/mobilefacenet.tflite':
+  Exists: true
+  Absolute Path: /app/applet/app/src/main/assets/mobilefacenet.tflite
+  Canonical Path: /app/applet/app/src/main/assets/mobilefacenet.tflite
+  Size: 36 bytes
+  Total bytes read: 36
+  Header (Hex): 4D 4F 43 4B 5F 4D 4F 42 49 4C 45 46 41 43 45 4E 45 54 5F 54 46 4C 49 54 45 5F 4D 4F 44 45 4C 5F 44 41 54 41
+  Header (ASCII): MOCK_MOBILEFACENET_TFLITE_MODEL_DATA
+  Magic characters (offset 4..7): '_MOB'
+Checking '/mobilefacenet.tflite':
+  Exists: false
+Checking '/app/src/main/assets/mobilefacenet.tflite':
+  Exists: false
+=== MODEL FILES DIAGNOSTICS END ===

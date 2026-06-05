@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Group centered strictly within 66dp safe-zone (21-87 range) -->
+    <group android:translateX="0" android:translateY="0">
+        <!-- High-fidelity Scanner Corner Brackets in Electrifying Cyan -->
+        <!-- Top-Left Bracket -->
+        <path
+            android:pathData="M 30,30 L 30,24 A 2,2 0 0 1 32,22 L 38,22"
+            android:strokeWidth="2.5"
+            android:strokeColor="#00F0FF"
+            android:strokeLineCap="round"/>
+        <!-- Top-Right Bracket -->
+        <path
+            android:pathData="M 78,30 L 78,24 A 2,2 0 0 0 76,22 L 70,22"
+            android:strokeWidth="2.5"
+            android:strokeColor="#00F0FF"
+            android:strokeLineCap="round"/>
+        <!-- Bottom-Left Bracket -->
+        <path
+            android:pathData="M 30,78 L 30,84 A 2,2 0 0 0 32,86 L 38,86"
+            android:strokeWidth="2.5"
+            android:strokeColor="#00F0FF"
+            android:strokeLineCap="round"/>
+        <!-- Bottom-Right Bracket -->
+        <path
+            android:pathData="M 78,78 L 78,84 A 2,2 0 0 1 76,86 L 70,86"
+            android:strokeWidth="2.5"
+            android:strokeColor="#00F0FF"
+            android:strokeLineCap="round"/>
+
+        <!-- Biometric Face Silhouette Structure -->
+        <path
+            android:pathData="M 54,34 C 44,34 39,40 39,52 C 39,63 46,74 54,74 C 62,74 69,63 69,52 C 69,40 64,34 54,34 Z"
+            android:strokeWidth="2"
+            android:strokeColor="#FFFFFF"
+            android:fillColor="#15FFFFFF"/>
+
+        <!-- Biometric Mesh Verification Web (Nodes and Connections) -->
+        <!-- Center line -->
+        <path
+            android:pathData="M 54,34 L 54,74"
+            android:strokeWidth="1"
+            android:strokeColor="#40E0F0" />
+        <!-- Horizontal eye-line -->
+        <path
+            android:pathData="M 42,48 L 66,48"
+            android:strokeWidth="1"
+            android:strokeColor="#40E0F0" />
+        <!-- Horizontal mouth-line -->
+        <path
+            android:pathData="M 46,62 L 62,62"
+            android:strokeWidth="1"
+            android:strokeColor="#40E0F0" />
+
+        <!-- Verification Node Points -->
+        <!-- Forehead -->
+        <path
+            android:pathData="M 54,38 A 1.5,1.5 0 1 1 54,35 A 1.5,1.5 0 1 1 54,38"
+            android:fillColor="#00F0FF" />
+        <!-- Nose Tip -->
+        <path
+            android:pathData="M 54,54 A 1.5,1.5 0 1 1 54,51 A 1.5,1.5 0 1 1 54,54"
+            android:fillColor="#00F0FF" />
+        <!-- Left eye -->
+        <path
+            android:pathData="M 46,48 A 1.5,1.5 0 1 1 46,45 A 1.5,1.5 0 1 1 46,48"
+            android:fillColor="#00F0FF" />
+        <!-- Right eye -->
+        <path
+            android:pathData="M 62,48 A 1.5,1.5 0 1 1 62,45 A 1.5,1.5 0 1 1 62,48"
+            android:fillColor="#00F0FF" />
+        <!-- Left cheek -->
+        <path
+            android:pathData="M 43,56 A 1.2,1.2 0 1 1 43,53.6 A 1.2,1.2 0 1 1 43,56"
+            android:fillColor="#00F0FF" />
+        <!-- Right cheek -->
+        <path
+            android:pathData="M 65,56 A 1.2,1.2 0 1 1 65,53.6 A 1.2,1.2 0 1 1 65,56"
+            android:fillColor="#00F0FF" />
+        <!-- Chin node -->
+        <path
+            android:pathData="M 54,71 A 1.5,1.5 0 1 1 54,68 A 1.5,1.5 0 1 1 54,71"
+            android:fillColor="#00F0FF" />
+
+        <!-- Glowing Horizontal Scan HUD Line -->
+        <path
+            android:pathData="M 26,53 C 26,53 45,53 54,53 C 63,53 82,53 82,53"
+            android:strokeWidth="1.5"
+            android:strokeColor="#00F0FF" />
+            
+        <path
+            android:pathData="M 26,53 L 82,53"
+            android:strokeWidth="4"
+            android:strokeColor="#3000F0FF" />
+    </group>
+</vector>
